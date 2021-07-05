@@ -1,0 +1,167 @@
+/*
+* {
+  border-radius: 0 !important;
+}
+*/
+body {
+    color: black;
+    text-align: center;
+    font-family: Trebuchet MS;
+    background-color: #D6EBFF;
+    user-select: none;
+    cursor: default
+        /*
+        background-color: #93B7BA;
+        */
+}
+button {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white inset;
+}
+#check {
+    margin: 0px;
+    padding: 0px;
+    zoom: 300%;
+}
+#skip {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 10px;
+}
+@font-face {
+    font-family: "Digital";
+    src: url(../fonts/digital-7.ttf);
+}
+#timeIsUp, .title, #mode {
+    font-family: Digital;
+}
+.title, #mode {
+    zoom: 200%;
+}
+#timeIsUp {
+    color: red;
+    font-size: 170px;
+}
+.fa-heart {
+    color: red;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+#title {
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#word {
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.modal-content {
+    box-shadow: none;
+}
+.fade {
+    background-color: transparent;
+}
+#quitcontent {
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+    display: true;
+}
+#playerNameContent {
+    height: 180px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+    display: true;
+}
+.centeredInput {
+    text-align: center;
+    border-radius: 20px;
+}
+#playerNameInput {
+    font-family: Digital;
+    font-size: 40px;
+}
+.lower-center {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lower-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+.centerFixed {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#menu, #modemenu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#menu, #modeoptions {
+    zoom: 400%;
+}
+#modeoptions {
+    zoom: 300%;
+}
+#modemenuback {
+    zoom: 200%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quitmessage {
+    color: gray;
+}
+
+/*Full-Page Div*/
+#backdrop {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+#toprightinfo {
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+#quitgame {
+    zoom: 200%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#result {
+    font-size: 20px;
+}
+.modal-body {
+    text-align: left;
+}
+#notopscore {
+    color: darkgray;
+    text-align: center;
+}
+#timerContainer {
+    font-size: 50px;
+    position: fixed;
+    top: 20px;
+    left: 45px;
+}
